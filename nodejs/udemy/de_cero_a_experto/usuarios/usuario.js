@@ -1,4 +1,4 @@
-function getUsuarioSync( id) {
+function getUsuariosSync( id) {
 
     const startPoint = new Date().getTime()
     while (new Date().getTime() - startPoint ,+ 3000){
@@ -23,5 +23,5 @@ function getUsuario( id, callback) {
 
 module.exports = {
     getUsuario,
-    getUsuarioSync
+    getUsuariosSync
 }
